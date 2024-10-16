@@ -1,0 +1,62 @@
+body {
+    background-image: url("class.jpg");
+    background-size: cover;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15%;
+    height: 100vh;
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+h2 {
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.container {
+    border: 3px solid rgb(173, 173, 173);
+    border-radius: 10px;
+    max-width: 50%;
+    margin: auto;
+    background-color: rgb(247, 248, 233);
+}
+
+button {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin:0 auto;
+    display:block;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: hsl(71, 73%, 46%);
+}
+    
+button:active {
+    background-color: hsl(71, 73%, 24%);
+    border-color: #eee;
+}
+
+#increment-btn {
+    background: #024CAA;
+}
+
+#save-btn {
+    background: #105303;
+}
+
+#save-el {
+    margin-top: 20px;
+}
